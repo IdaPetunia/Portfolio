@@ -60,7 +60,7 @@ body.space-between .hero__text {
   color: #566479;
 }
 
-body.space-between .section__heading span {
+body.space-between .__heading span {
   color: var(--pink-soft);
 }
 
@@ -491,6 +491,12 @@ a {
 .placeholder--medium {
   min-height: 78px;
   width: 82%;
+}
+.frame__content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .frame--medium .placeholder {
